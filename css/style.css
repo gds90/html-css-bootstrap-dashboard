@@ -3,3 +3,34 @@
     bottom: 0;
     box-sizing: border-box;
 }
+
+header {
+    height: 75px;
+    background-color: bisque;
+}
+
+#sidebar {
+    width: 150px;
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.main_content {
+    width: calc(100vw - 150px);
+    background-color: brown;
+    height: 100vh;
+}
+
+.main_content_top {
+    background-color: aliceblue;
+}
+
+.content {
+    background-color: red;
+    height: 600px;
+}
+
+.content_sm {
+    height: 50px;
+    background-color: blue;
+}
