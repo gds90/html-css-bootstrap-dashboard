@@ -13,23 +13,20 @@ header {
     background-color: rgb(248, 246, 246);
 }
 
-.main_container {
-    height: 100%;
-}
-
 #sidebar {
     width: 150px;
-    background-color: aquamarine;
-    height: 100%;
+    background-color: rgb(0, 0, 66);
 }
 
 .main_content {
     width: calc(100vw - 150px);
-    background-color: brown;
 }
 
 .main_content_top {
     background-color: rgb(56,112,224)
+}
+.main_content_bottom {
+    background-color: rgb(248,249,250)
 }
 
 #basic-addon1, .search {
