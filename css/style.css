@@ -6,7 +6,7 @@
 
 header {
     height: 75px;
-    background-color: bisque;
+    background-color: rgb(248, 246, 246);
 }
 
 #sidebar {
@@ -33,4 +33,18 @@ header {
 .content_sm {
     height: 50px;
     background-color: blue;
+}
+
+#basic-addon1, .search {
+    border: 0;
+    background-color: rgb(225, 225, 225);
+}
+
+.list-inline i {
+    color:grey;
+    padding: 0 5px;
+}
+
+.fas.fa-bell {
+    color: rgb(230, 149, 0);
 }
