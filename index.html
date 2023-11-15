@@ -59,8 +59,16 @@
                 <!-- CONTENT TOP  -->
                 <div class="main_content_top">
                     <div class="container-fluid py-3">
-                        <div class="row">
-                            <div class="col-6">
+                        <div class="row flex-column flex-md-row">
+                            <div class="col-12 col-md-3 order-md-last">
+                                <div class="text-white">
+                                    <span class="">Nuovo studente</span>
+                                    <a class="btn btn-outline-light py-1 ms-2" data-bs-toggle="offcanvas"           href="#offcanvas" role="button" aria-controls="offcanvasExample">
+                                    <i class="fas fa-plus fa-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 my-3">
                                 <div class="text-white">
                                     <span class="fs-3">Boolean</span>
                                     <span class="badge personal_badge align-text-bottom">Piano blaze</span>
@@ -74,18 +82,10 @@
                                     <span class="badge personal_badge d-lg-none">+</span>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-12 col-md-3">
                                 <div class="text-white">
-                                    <span class="fs_10">Studenti online negli ultimi 30 minuti</span>
+                                    <span class="">Studenti online negli ultimi 30 minuti</span>
                                     <span class="d-block fs-4">125</span>
-                                </div>
-                            </div>
-                            <div class="col-3">
-                                <div class="text-white text-center">
-                                    <span class="fs_10">Nuovo studente</span>
-                                    <a class="btn btn-outline-light py-1 ms-2" data-bs-toggle="offcanvas"           href="#offcanvas" role="button" aria-controls="offcanvasExample">
-                                    <i class="fas fa-plus fa-sm"></i>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -106,8 +106,8 @@
                                                 <thead>
                                                   <tr class="text-center">
                                                     <td scope="col" class="text-start w_25">Nome</td>
-                                                    <td scope="col">Data inizio</td>
-                                                    <td scope="col">ROI</td>
+                                                    <td scope="col" class="d-none d-md-block">Data inizio</td>
+                                                    <td scope="col" class="d-none d-md-block">ROI</td>
                                                     <td scope="col">Stato</td>
                                                     <td class="text-center" scope="col">Azioni</td>
                                                   </tr>
@@ -115,8 +115,8 @@
                                                 <tbody>
                                                   <tr class="text-center">
                                                     <td class="text-start"><img src="./img/class-avatar.jpg" alt="Class avatar" class="me-2">Classe 75</td>
-                                                    <td>15 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-block">15 Feb 2021</td>
+                                                    <td class="d-none d-md-block">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary fs_12"><i class="fas fa-pencil"></i></button>
@@ -125,8 +125,8 @@
                                                   </tr>
                                                   <tr class="text-center">
                                                     <td class="text-start"><img src="./img/class-avatar.jpg" alt="Class avatar" class="me-2">Classe 76</td>
-                                                    <td>16 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-block">16 Feb 2021</td>
+                                                    <td class="d-none d-md-block">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary fs_12"><i class="fas fa-pencil"></i></button>
@@ -135,8 +135,8 @@
                                                   </tr>
                                                   <tr class="text-center">
                                                     <td class="text-start"><img src="./img/class-avatar.jpg" alt="Class avatar" class="me-2">Classe 77</td>
-                                                    <td>17 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-block">17 Feb 2021</td>
+                                                    <td class="d-none d-md-block">20%</td>
                                                     <td><span class="badge text-bg-warning text-white">process</span></td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary fs_12"><i class="fas fa-pencil"></i></button>
@@ -145,8 +145,8 @@
                                                   </tr>
                                                   <tr class="text-center">
                                                     <td class="text-start"><img src="./img/class-avatar.jpg" alt="Class avatar" class="me-2">Classe 78</td>
-                                                    <td>18 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-block">18 Feb 2021</td>
+                                                    <td class="d-none d-md-block">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary fs_12"><i class="fas fa-pencil"></i></button>
@@ -155,8 +155,8 @@
                                                   </tr>
                                                   <tr class="text-center">
                                                     <td class="text-start"><img src="./img/class-avatar.jpg" alt="Class avatar" class="me-2">Classe 79</td>
-                                                    <td>19 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-block">19 Feb 2021</td>
+                                                    <td class="d-none d-md-block">20%</td>
                                                     <td><span class="badge text-bg-danger">failed</span></td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary fs_12"><i class="fas fa-pencil"></i></button>
@@ -165,8 +165,8 @@
                                                   </tr>
                                                   <tr class="text-center">
                                                     <td class="text-start"><img src="./img/class-avatar.jpg" alt="Class avatar" class="me-2">Classe 80</td>
-                                                    <td>20 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-block">20 Feb 2021</td>
+                                                    <td class="d-none d-md-block">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary fs_12"><i class="fas fa-pencil"></i></button>
@@ -175,8 +175,8 @@
                                                   </tr>
                                                   <tr class="text-center">
                                                     <td class="text-start"><img src="./img/class-avatar.jpg" alt="Class avatar" class="me-2">Classe 81</td>
-                                                    <td>21 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-block">21 Feb 2021</td>
+                                                    <td class="d-none d-md-block">20%</td>
                                                     <td><span class="badge text-bg-danger">failed</span></td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary fs_12"><i class="fas fa-pencil"></i></button>
@@ -185,8 +185,8 @@
                                                   </tr>
                                                   <tr class="text-center">
                                                     <td class="text-start"><img src="./img/class-avatar.jpg" alt="Class avatar" class="me-2">Classe 82</td>
-                                                    <td>22 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-block">22 Feb 2021</td>
+                                                    <td class="d-none d-md-block">20%</td>
                                                     <td><span class="badge text-bg-success">Done</span></td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary fs_12"><i class="fas fa-pencil"></i></button>
