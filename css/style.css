@@ -70,6 +70,10 @@ table img {
 #sidebar li {
     padding: 5px;
 }
+.overflow_card {
+    height: 55vh;
+    overflow-y: auto;
+}
 /* HOVER EFFECTS  */
 #sidebar li:hover {
     background-color:rgb(134,144,152);
