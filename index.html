@@ -16,8 +16,9 @@
     <header class="d-flex align-items-center">
         <div class="container-fluid">
             <div class="row pt-3">
-                <div class="col-2 pe-0 pt-1">
-                    <img src="./img/logo.svg" alt="">
+                <div class="col-2 pe-0">
+                    <img src="./img/mobile-logo.png" class="d-lg-none small_logo" alt="Logo">
+                    <img src="./img/logo.svg" class="d-none d-lg-block" alt="Logo">
                 </div>
                 <div class="col-8 px-0">
                     <div class="input-group mb-3">
@@ -28,9 +29,9 @@
                 <div class="col-2">
                     <div class="list_icon text-end pt-2">
                         <ul class="list-inline">
-                            <li class="list-inline-item"><i class="fas fa-list-ul"></i></li>
-                            <li class="list-inline-item"><i class="fa-solid fa-circle-question"></i></li>
-                            <li class="list-inline-item"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-list-ul d-none d-lg-block"></i></li>
+                            <li class="list-inline-item"><i class="fa-solid fa-circle-question d-none d-lg-block"></i></li>
+                            <li class="list-inline-item"><i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i></li>
                             <li class="list-inline-item"><i class="fas fa-bell"></i></li>
                         </ul>
                     </div>
@@ -45,13 +46,13 @@
             <div id="sidebar" class="text-white d-flex flex-column justify-content-between">
                 <div class="p-4">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><i class="fas fa-house me-3"></i>Home</li>
-                        <li class="list-inline-item my-2"><i class="fa-solid fa-chart-simple me-4"></i>Stats</li>
-                        <li class="list-inline-item"><i class="fas fa-signal me-3"></i>Signals</li>
+                        <li class="list-inline-item"><i class="fas fa-house me-3"></i><span class="d-none d-lg-inline-block">Home</span></li>
+                        <li class="list-inline-item my-2"><i class="fa-solid fa-chart-simple me-4"></i><span class="d-none d-lg-inline-block">Stats</span></li>
+                        <li class="list-inline-item"><i class="fas fa-signal me-3"></i><span class="d-none d-lg-inline-block">Signals</span></li>
                     </ul>
                 </div>
                 <div class="p-4">
-                    <i class="fas fa-gear me-3"></i>Admin
+                    <i class="fas fa-gear me-3"></i><span class="d-none d-lg-inline-block">Admin</span>
                 </div>
             </div>
             <div class="main_content">
@@ -67,9 +68,10 @@
                                 <div class="text-white">
                                     <span class="badge personal_badge">3 app</span>
                                     <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                    <span class="badge personal_badge">Boolean mobile app</span>
-                                    <span class="badge personal_badge">Boolean web app</span>
-                                    <span class="badge personal_badge">Boolean blog app</span>
+                                    <span class="badge personal_badge d-none d-lg-inline-block">Boolean mobile app</span>
+                                    <span class="badge personal_badge d-none d-lg-inline-block">Boolean web app</span>
+                                    <span class="badge personal_badge d-none d-lg-inline-block">Boolean blog app</span>
+                                    <span class="badge personal_badge d-lg-none">+</span>
                                 </div>
                             </div>
                             <div class="col-3">
@@ -93,17 +95,17 @@
                 <div class="main_content_bottom pt-4">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-8">
+                            <div class="col-lg-8 col-sm-12">
                                 <div class="content">
                                     <div class="card">
                                         <div class="card-header">
                                           Prossime classi
                                         </div>
                                         <div class="card-body">
-                                            <table class="table fs_12 align-middle">
+                                            <table class="table table-hover fs_12 align-middle">
                                                 <thead>
                                                   <tr class="text-center">
-                                                    <td scope="col" class="text-start w-50">Nome</td>
+                                                    <td scope="col" class="text-start w_25">Nome</td>
                                                     <td scope="col">Data inizio</td>
                                                     <td scope="col">ROI</td>
                                                     <td scope="col">Stato</td>
@@ -239,7 +241,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-lg-4 col-sm-12">
                                 <div class="content">
                                     <div class="card">
                                         <div class="card-header">
@@ -287,7 +289,7 @@
             </div>
         </div>
     </main>
-    <div class="offcanvas offcanvas offcanvas-end fs_12" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas offcanvas-end fs_12 width-offcanvas" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title fs-6" id="offcanvasLabel">Inserisci un nuovo studente</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>

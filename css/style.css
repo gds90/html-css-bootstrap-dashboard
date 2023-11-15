@@ -13,14 +13,18 @@ header {
     background-color: rgb(248, 246, 246);
 }
 
+.small_logo {
+    width: 50px;
+}
+
 #sidebar {
-    width: 150px;
+    width: 75px;
     background-color: rgb(12,29,50);
     background-image: url(../img/sidebar-bg.png);
 }
 
 .main_content {
-    width: calc(100vw - 150px);
+    width: calc(100vw - 75px);
 }
 
 .main_content_top {
@@ -58,4 +62,23 @@ header .list-inline i {
 
 table img {
     width: 20px;
+}
+
+.offcanvas.offcanvas-end.width-offcanvas{ 
+    width: 100%; 
+}
+
+@media screen and (min-width: 992px) {
+    #sidebar {
+        width: 150px;
+    }
+    .main_content {
+        width: calc(100vw - 150px);
+    }
+    .offcanvas.offcanvas-end.width-offcanvas{ 
+        width: 50%;
+    }
+    .w_25 {
+        width: 50%;
+    }
 }
