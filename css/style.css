@@ -64,6 +64,10 @@ table img {
     width: 20px;
 }
 
+th {
+    font-weight: normal;
+}
+
 .offcanvas.offcanvas-end.width-offcanvas{ 
     width: 100%; 
 }
