@@ -67,6 +67,14 @@ table img {
 .offcanvas.offcanvas-end.width-offcanvas{ 
     width: 100%; 
 }
+#sidebar li {
+    padding: 5px;
+}
+/* HOVER EFFECTS  */
+#sidebar li:hover {
+    background-color:rgb(134,144,152);
+    cursor: pointer;
+}
 
 @media screen and (min-width: 992px) {
     #sidebar {
